@@ -10,9 +10,24 @@ document.getElementById('button-login')
 
     //step 2 prevent default behavior (prevent reloading browser)
 event.preventDefault();  // <-----------vejal to beguners
-    console.log('login button clicked');
+    
 
     //step 3: get the phone numbar
     const phoneNumber = document.getElementById('phone-number').value;
-    console.log('phoneNumber')
+    const pinNumber = document.getElementById('pin-number').value;
+
+
+    //console.log(phoneNumber, pinNumber );
+
+    //bad way to validarte 
+    if(phoneNumber ==='123' && pinNumber === '123')
+    {
+        console.log('You are login ')
+    }
+    else
+    {
+        alert('Wrong phone number or pin')
+    }
+ 
+    
 })
