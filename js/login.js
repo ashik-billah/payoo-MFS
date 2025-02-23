@@ -17,12 +17,13 @@ event.preventDefault();  // <-----------vejal to beguners
     const pinNumber = document.getElementById('pin-number').value;
 
 
-    //console.log(phoneNumber, pinNumber );
+ console.log(phoneNumber, pinNumber );
 
     //bad way to validarte 
     if(phoneNumber ==='123' && pinNumber === '123')
     {
         console.log('You are login ')
+        window.location.href="home.html";
     }
     else
     {
