@@ -13,5 +13,10 @@ document.getElementById('btn-add-money').addEventListener('click',function(event
     console.log(addMoneyInput);
 
 
+    const pinNumberInput = document.getElementById('input-pin-number').value;
+
+    console.log(pinNumberInput);
+
+
 
 });
