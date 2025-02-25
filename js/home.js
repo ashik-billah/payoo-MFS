@@ -38,6 +38,15 @@ if(pinNumberInput === '123')
     //step-4: get the current balance
     const balance = document.getElementById('account-balance').innerText;
     console.log(typeof balance)
+    //step-5: addmoney input with balance
+    const addMoneyNumber = parseFloat(addMoneyInput);
+    const balanceNumber = parseFloat(balance);
+    const newBalance = addMoneyNumber + balanceNumber;
+    console.log(newBalance)
+
+    //step-6:update the balance
+
+    document.getElementById('account-balance').innerText=newBalance;
 
     
    
