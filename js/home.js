@@ -34,6 +34,12 @@ document.getElementById('btn-add-money').addEventListener('click',function(event
 if(pinNumberInput === '123')
 {
     console.log('adding money to your account')
+
+    //step-4: get the current balance
+    const balance = document.getElementById('account-balance').innerText;
+    console.log(typeof balance)
+
+    
    
 
     
